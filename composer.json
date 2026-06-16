@@ -1,0 +1,17 @@
+{
+  "name": "udir-moodle/filter_syntaxhighlighter",
+  "description": "Syntax Highlighter — Composer/Packagist mirror of the Moodle plugin filter_syntaxhighlighter, auto-updated from the Moodle plugins directory.",
+  "type": "moodle-filter",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://moodle.org/plugins/filter_syntaxhighlighter",
+  "require": {
+    "composer/installers": "~1.0 || ~2.0",
+    "moodle/moodle": "4.1.* || 4.2.* || 4.3.* || 4.4.* || 4.5.*"
+  },
+  "extra": {
+    "installer-name": "syntaxhighlighter",
+    "moodle-composer": {
+      "component": "filter_syntaxhighlighter"
+    }
+  }
+}
